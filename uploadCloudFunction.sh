@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e env1-6g7sav9181c12f16 --n quickstartFunctions --r --project "/Users/frederickmo/Documents/GitHub/wenyuzhulao_miniprogram" --report
