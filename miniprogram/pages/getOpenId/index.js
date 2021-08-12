@@ -32,7 +32,9 @@ Page({
       this.setData({
         haveGetOpenId: true,
         openId: resp.result.openid
-      })
+      });
+      console.log("调用getOpenId云函数的返回resp：", resp);
+      console.log("resp中的result格式：", resp.result);
      wx.hideLoading()
    }).catch((e) => {
       this.setData({
