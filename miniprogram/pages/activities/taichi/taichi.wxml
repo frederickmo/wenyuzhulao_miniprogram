@@ -1,0 +1,21 @@
+<!--pages/activities/taichi/taichi.wxml-->
+<view class="activityBox">
+  <view class="title">太极拳教学</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/taichi.png?sign=76ce0967cd3abdec8823bbd8153a59e7&t=1633357123"></image>
+  </view>
+  <view class="textBox">太极拳结合了传统导引、吐纳的方法，著重练身、练气、练意三者之间的紧密调协。练习时一方面可锻炼肌肉，舒筋活络；另一方面又能透过呼吸与动作间的相互配合，对内脏加以按摩锻炼，达到强身健体的作用。曲阳路社区睦邻中心将于周日上午举办太极拳教学活动，现招募参与活动人员若干。
+活动名称：太极拳教学
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月20日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

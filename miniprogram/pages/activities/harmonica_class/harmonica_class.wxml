@@ -1,0 +1,20 @@
+<!--pages/activities/harmonica_class/harmonica_class.wxml-->
+<view class="activityBox">
+  <view class="title">口琴课堂</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/harmonica_class.jpeg?sign=cc8ca9df4edb0734ca0e435d9a526d5c&t=1633356900"></image>
+  </view>
+  <view class="textBox">口琴容易携带，可以在更多的场合表现，相比其他乐器更容易学。口琴表现力很强，音色悠扬，并且能够锻炼肺活量和腹隔膜，对健康有很大的益处。密云路社区睦邻中心将于6月6日下午举办社区口琴班，欢迎社区居民报名参加。
+  活动名称：口琴课堂
+  活动地点：密云路社区睦邻中心
+  活动时间：2021年6月6日下午13:30-15:00
+  活动对象：社区居民
+  报名方式
+  现场报名：密云路社区睦邻中心
+  拨打电话报名：19931021818  
+  联系人：张老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

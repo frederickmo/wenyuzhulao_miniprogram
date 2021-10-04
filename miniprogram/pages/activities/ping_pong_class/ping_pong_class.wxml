@@ -1,0 +1,20 @@
+<!--pages/activities/ping_pong_class/ping_pong_class.wxml-->
+<view class="activityBox">
+  <view class="title">乒乓世界</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/ping_pong_class.jpeg?sign=d2ddcd7f3e163d402644bca338fd62e3&t=1633356932"></image>
+  </view>
+  <view class="textBox">打乒乓球可以起到全身锻炼，在打乒乓球的时候通过上肢的摆动和腰部扭动，以及下肢的运动，就可以达到全面锻炼的目的，从而有效的提升身体素质。密云路社区睦邻中心将于6月12日上午开展乒乓活动班，欢迎社区居民踊跃报名。
+活动名称：乒乓世界
+活动地点：密云路社区睦邻中心
+活动时间：2021年6月12日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：密云路社区睦邻中心
+拨打电话报名：19931021818 
+联系人：张老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

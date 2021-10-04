@@ -1,0 +1,21 @@
+<!--pages/activities/social_dance/social_dance.wxml-->
+<view class="activityBox">
+  <view class="title">社区交谊舞班</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/social_dance.png?sign=014a01d675977c5ba04b399c1ae36b30&t=1633357023"></image>
+  </view>
+  <view class="textBox">浅学跳交谊舞，既是运动，也是娱乐。在舞蹈的学习练习欣赏的过程中都会有很多乐趣。在娱乐中锻炼身体，结合放松运动，轻松健身，尽情娱乐，一举两得。曲阳路社区睦邻中心将于6月21日下午举办社区交谊舞活动，欢迎社区居民报名参加。
+活动名称：社区交谊舞班
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月21日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师  
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

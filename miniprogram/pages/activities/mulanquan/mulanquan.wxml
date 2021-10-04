@@ -1,0 +1,21 @@
+<!--pages/activities/mulanquan/mulanquan.wxml-->
+<view class="activityBox">
+  <view class="title">木兰拳兴趣班</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/mulanquan.png?sign=e3d2767ef8ea8976680604a68d5962c1&t=1633356918"></image>
+  </view>
+  <view class="textBox">木兰拳将太极拳基本功，气功要领，武术技巧基本功，体操基本功及舞台艺术造型有机结合，以吐纳之道和阴阳二气合理运动为理论依据，动静结合，在动的过程中，让思想随着优雅的音乐意守拳路而自然入静，从而达到防病、治病，延年益寿的目的。曲阳路社区睦邻中心将于6月27日上午举办木兰拳兴趣班活动，欢迎社区居民踊跃报名。
+活动名称：木兰拳兴趣班
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月27日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师  
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

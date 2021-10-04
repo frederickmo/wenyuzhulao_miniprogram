@@ -1,0 +1,21 @@
+<!--pages/activities/smart_phone_guide/smart_phone_guide.wxml-->
+<view class="activityBox">
+  <view class="title">手机乾坤</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/smart_phone_guide.png?sign=bda1021de9d57b03829c4467dd699206&t=1633356993"></image>
+  </view>
+  <view class="textBox">在智能手机日益普遍的社会大背景下，现在有很多老人看不上功能机，买的都是智能手机，但是好多老人买了之后用不来，因此智能机的使用成了社区的老年朋友们的一个大问题。曲阳路社区睦邻中心特开展手机乾坤——手机教学课堂，帮助老年人了解智能手机的使用方法。
+活动名称：手机乾坤
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月22日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

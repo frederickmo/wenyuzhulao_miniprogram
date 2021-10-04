@@ -1,0 +1,20 @@
+<!--pages/activities/art_festival/art_festival.wxml-->
+<view class="activityBox">
+  <view class="title">文艺汇演</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/art_festival.png?sign=7a5709722a038b55232733a8426fa968&t=1633356702"></image>
+  </view>
+  <view class="textBox">你是否拥有个人才艺？是否想在舞台之上一展风采？曲阳路社区睦邻中心将于周六下午举办文艺汇演活动，欢迎社区居民踊跃报名，届时前来观看演出。
+活动名称：文艺汇演
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月26日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

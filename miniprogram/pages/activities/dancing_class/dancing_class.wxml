@@ -1,0 +1,20 @@
+<!--pages/activities/dancing_class/dancing_class.wxml-->
+<view class="activityBox">
+  <view class="title">浅浅爱舞蹈班</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/dancing_class.jpeg?sign=016ade1c4e6b3c21dbb086e163e0247e&t=1633356856"></image>
+  </view>
+  <view class="textBox">浅浅爱舞蹈班目前主要教学社交舞蹈，风格庄重典雅，舞步也较规范。节奏舒缓，优雅的舞步动作，老年人容易学会，而且舞蹈动作轻柔舒缓，适合老年人的身体。在6月19日上午，浅浅爱舞蹈班将举办舞蹈教学活动，欢迎社区居民踊跃报名。
+活动名称：浅浅爱舞蹈
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月19日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师  
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

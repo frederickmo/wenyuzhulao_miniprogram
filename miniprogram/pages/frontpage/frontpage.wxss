@@ -1,0 +1,8 @@
+/* pages/frontpage/frontpage.wxss */
+
+#login {
+  width: 300rpx;
+  height: 300rpx;
+  font-size: 80rpx;
+  font-weight: bolder;
+}

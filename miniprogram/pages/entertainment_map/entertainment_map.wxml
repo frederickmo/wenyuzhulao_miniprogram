@@ -1,0 +1,36 @@
+<!--pages/entertainment_map/entertainment_map.wxml-->
+<!--主盒子-->
+<view class="con">
+ <!--左侧栏-->
+ <view class="nav_left">
+   <block wx:for="{{cateItems}}" wx:key="*this">
+     <!--当前项的id等于item项的id，那个就是当前状态-->
+     <!--用data-index记录这个数据在数组的下标位置，使用data-id设置每个item的id值，供打开2级页面使用-->
+     <view class="nav_left_items {{curNav == item.cate_id ? 'active' : ''}}" bindtap="switchRightTab" data-index="{{index}}" data-id="{{item.cate_id}}">{{item.cate_name}}</view>
+   </block>
+ </view>
+ <!--右侧栏-->
+ <view class="nav_right">
+   <!--如果有数据，才遍历项-->
+   <view wx:if="{{cateItems[curIndex].ishaveChild}}">
+     <block wx:for="{{cateItems[curIndex].children}}" wx:key="value">
+      <!-- <view id="0" class="reading_icon" bindtap="showIconDetail">
+        <image mode="aspectFit" src="/resources/entertainment_map/reading_icon.png"></image>
+      </view>
+      <view id="1" class="fitting_icon" bindtap="showIconDetail">
+        <image mode="aspectFit" src="/resources/entertainment_map/fitting_icon.png"></image>
+      </view> -->
+       <view class="nav_right_items">
+       <!--界面跳转 -->
+         <!-- <navigator url="../../detail/detail"> -->
+           <image mode="widthFix" src="{{item.image}}"></image>
+           <!-- <text>{{item.name}}</text> -->
+         <!-- </navigator> -->
+       </view>
+     </block>
+   </view>
+   <!--如果无数据，则显示数据-->
+   <view class="nodata_text" wx:else>暂无数据</view>
+ </view>
+</view>
+

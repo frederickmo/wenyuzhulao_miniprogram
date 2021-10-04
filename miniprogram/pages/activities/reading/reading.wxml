@@ -1,0 +1,21 @@
+<!--pages/activities/reading/reading.wxml-->
+<view class="activityBox">
+  <view class="title">品味书香</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/red_song.png?sign=8a70cacb713833ab61b1afd589fc10f3&t=1633356968"></image>
+  </view>
+  <view class="textBox">正所谓“书中自有黄金屋”，读书已成为当代青少年及老年人汲取知识的重要源头之一。当阅读着不同的书籍时，畅游在知识的海洋里，时而静静地看，时而又轻声交流。在读书的过程中不仅学到了丰富的知识，也在繁忙的生活中找出一片宁静的时刻自我总结，在学习中获得，在总结中成长。在6月26日上午，曲阳路社区睦邻中心将举办“品味书香”读书会，欢迎社区居民积极参与。
+活动名称：品味书香
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月26日下午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

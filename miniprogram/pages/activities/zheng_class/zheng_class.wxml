@@ -1,0 +1,20 @@
+<!--pages/activities/zheng_class/zheng_class.wxml-->
+<view class="activityBox">
+  <view class="title">筝韵睦邻</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/zheng_class.jpeg?sign=11f4c3091d6b3953143adefc2b76274b&t=1633357142"></image>
+  </view>
+  <view class="textBox">古筝一直被誉为我国民族乐器的瑰宝，以其音色优美、音域宽广、演奏技巧丰富、具有相当强的表现力著称，并深受广大人民群众的喜爱。为传承我国民族文化，帮助大家进一步加深对我国民族乐器的了解，密云路社区睦邻中心将于6月19日下午开展“筝韵睦邻”古筝课堂活动，现招募活动人员若干。
+活动名称：筝韵睦邻
+活动地点：密云路社区睦邻中心
+活动时间：2020年6月19日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：密云路社区睦邻中心
+拨打电话报名：19931021818
+联系人：张老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

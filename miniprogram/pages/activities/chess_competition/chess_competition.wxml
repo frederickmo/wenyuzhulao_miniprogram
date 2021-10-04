@@ -1,0 +1,20 @@
+<!--pages/activities/chess_competition/chess_competition.wxml-->
+<view class="activityBox">
+  <view class="title">象棋对弈</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/chess.png?sign=de7f74104cfe57c1df5a44138ca50bc9&t=1633356746"></image>
+  </view>
+  <view class="textBox">“世事如棋局局新”，下象棋可以培养一个人的大局观和沉着冷静的思维模式。曲阳路社区睦邻中心将于周一下午举办象棋对弈活动，欢迎社区居民届时参加。
+活动名称：象棋对弈
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月28日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>

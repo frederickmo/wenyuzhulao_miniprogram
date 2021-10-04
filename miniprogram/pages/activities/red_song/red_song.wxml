@@ -1,0 +1,21 @@
+<!--pages/activities/red_song/red_song.wxml-->
+<view class="activityBox">
+  <view class="title">唱红歌，颂党恩</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://636c-cloud1-6gti323d7294495c-1306017304.tcb.qcloud.la/resources/activity_image/red_song.png?sign=45a89d4ba46b1716ff738a98d18415f8&t=1623930590"></image>
+  </view>
+  <view class="textBox">红歌声声,召唤着尘封的记忆，声声红歌,引领着奋进的方向，闭着眼,我们看见的是往昔,一首首红歌带我们梦回历史长河，睁着眼,眼前的一幕幕美好,带着曾经的血与泪冲我们微笑。在中国共产党成立100周年之际，曲阳路社区睦邻中心将于6月25日上午举办“唱红歌，颂党恩”主题活动。
+活动名称：唱红歌，颂党恩
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月25日上午9:30-11:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

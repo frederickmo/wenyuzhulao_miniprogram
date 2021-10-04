@@ -1,0 +1,43 @@
+/* pages/activities/activities.wxss */
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: saddlebrown;
+}
+
+.menuRow{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block: 10px;
+}
+
+.imageBox{
+  height: 200rpx;
+  width: 350rpx;
+  justify-content: center;
+}
+
+.menuBtn{
+  height: 100px;
+  width: 165px;
+  margin-inline: 10px;
+}
+.place{
+  margin-block: 30rpx;
+}
+
+.text1{
+  display: block;
+  font-size: 50rpx;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+  color:rgb(39, 39, 39);
+}
+.text2{
+  display: block;
+  font-size: 35rpx;
+  letter-spacing: 3rpx;
+  color:rgb(167, 167, 167);
+}

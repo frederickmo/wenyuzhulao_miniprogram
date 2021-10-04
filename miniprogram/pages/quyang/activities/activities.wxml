@@ -1,0 +1,32 @@
+<!--pages/activities/activities.wxml-->
+<view class="place">
+  <view class="text1">曲阳路为老中心</view>
+  <view class="text2">搜索本月丰富活动</view>
+</view>
+<view class="title">活动分类</view>
+
+<view class="menuRow">
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/performance.png?sign=dc43574d32eddbc0a9879e2edff4b4d0&t=1633356018"></image>
+  </navigator>
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/fitting.png?sign=9b3682b532724929b676d35a9f361460&t=1633356034"></image>
+  </navigator>
+</view>
+<view class="menuRow">
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/cooking.png?sign=460d7b94efd30ae67e60b29cfb9a5f87&t=1633356046"></image>
+  </navigator>
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/lecture.png?sign=9cf5ae8b1833f24372b8d6bc912d5d80&t=1633356057"></image>
+  </navigator>
+</view>
+<view class="menuRow">
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/chess.png?sign=75f692e7eccc015afc5f1e0ae9c4aa5d&t=1633356068"></image>
+  </navigator>
+  <navigator class="imageBox" url="/pages/quyang/activity_page/activity_page">
+    <image class="menuBtn" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/activities/art.png?sign=0e716f079718c1af91f1177cfef41378&t=1633356077"></image>
+  </navigator>
+</view>
+

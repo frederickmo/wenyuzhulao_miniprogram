@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view class="box">
+  <navigator class="chooseBox" url="/pages/miyun/activities/activities">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/miyun_road.png?sign=46edf43eb31a25c06b4244c84a715e66&t=1633355730"></image>
+    <text>密云路为老中心</text>
+  </navigator>
+</view>
+<view class="box">
+  <navigator class="chooseBox" url="/pages/quyang/activities/activities">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/quyang_road.png?sign=c80eb555d1cdcfc5709948b6e1bd030b&t=1633355745"></image>
+    <text>曲阳路为老中心</text>
+  </navigator>
+</view>

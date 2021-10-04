@@ -1,0 +1,28 @@
+/* pages/activities/smart_phone_guide/smart_phone_guide.wxss */
+page{
+  background: rgb(242, 255, 228);
+}
+
+.title{
+  height: 100rpx;
+  font-size: 60rpx;
+  font-weight: bold;
+  color: darkcyan;
+}
+.activityBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.displayFlex{
+  display: flex;
+}
+.textBox{
+  width: 95%;
+  display: flex;
+  font-size: 40rpx;
+  color:rgb(56, 56, 56);
+  white-space: pre-wrap;
+}

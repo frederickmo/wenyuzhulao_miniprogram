@@ -1,0 +1,21 @@
+<!--pages/activities/symphony_performance/symphony_performance.wxml-->
+<view class="activityBox">
+  <view class="title">交响乐队演出</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/symphony_performance.png?sign=95f1f8cae6cbfb3457a6fe6de7fdd93c&t=1633357108"></image>
+  </view>
+  <view class="textBox">为了丰富社区老年居民的老年生活，并且为社区居民提供一个表演的舞台，曲阳路社区睦邻中心将于6月20日下午举办交响乐队演出活动，欢迎社区居民踊跃报名观看节目。
+活动名称：交响乐队演出
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月20日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+

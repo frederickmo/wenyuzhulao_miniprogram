@@ -1,0 +1,4 @@
+/* pages/activity_registration_success/activity_registration_success.wxss */
+.congrats{
+  font-size: 50rpx;
+}

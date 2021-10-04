@@ -1,0 +1,21 @@
+<!--pages/activities/zongzi/zongzi.wxml-->
+<view class="activityBox">
+  <view class="title">包粽子</view>
+  <view class="displayFlex">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E5%86%85%E5%AE%B9/zongzi.jpeg?sign=1081896feb7dcf8188620c00e5cbaa54&t=1633357165"></image>
+  </view>
+  <view class="textBox">又是一年端午到，又是一季粽米香，在中华民族的传统节日端午到来之际，为弘扬中华民族优秀传统文化，增强同辖区居民家庭的沟通与联系，曲阳路社区睦邻中心将于周六举行包粽子活动，迎接端午假期，为大家带来一份美食和节日的气氛。
+活动名称：包粽子
+活动地点：曲阳路社区睦邻中心
+活动时间：2021年6月12日下午13:30-15:00
+活动对象：社区居民
+报名方式
+现场报名：曲阳路社区睦邻中心
+拨打电话报名：13906062021
+联系人：谭老师
+</view>
+  <navigator url="/pages/activity_registration_success/activity_registration_success">
+    <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/enroll.png?sign=7fd9afa3d4db313eb2a03166f2f25116&t=1633357181"></image>
+  </navigator>
+</view>
+
