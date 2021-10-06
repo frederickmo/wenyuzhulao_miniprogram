@@ -150,5 +150,15 @@ Page({
       curNav: id,
       curIndex: index
     })
+  },
+
+  onLoad: function(e) {
+    console.log(e.curIndex)
+    this.setData({
+      curNav: parseInt(e.curIndex) + 1,
+      curIndex: e.curIndex
+    })
+    // console.log("curNav = "+this.data.curNav)
+    // console.log("curIndex = "+this.data.curIndex)
   }
 })

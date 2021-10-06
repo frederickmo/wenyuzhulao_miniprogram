@@ -64,12 +64,13 @@ Page({
       }
     ],
     curNav: 1,
-    curIndex: 0
+    curIndex: 0,
+    curItemStyle: ['','','','','','']
   },
 
   //事件处理函数  
   switchRightTab: function (e) {
-    console.log(e)
+    console.log(e.target.dataset)
     // 获取item项的id，和数组的下标值  
     let id = e.target.dataset.id,
     index = parseInt(e.target.dataset.index);
@@ -78,5 +79,15 @@ Page({
       curNav: id,
       curIndex: index
     })
+  },
+
+  onLoad: function(e) {
+    console.log(e.curIndex)
+    this.setData({
+      curNav: parseInt(e.curIndex) + 1,
+      curIndex: e.curIndex
+    })
+    // console.log("curNav = "+this.data.curNav)
+    // console.log("curIndex = "+this.data.curIndex)
   }
 })
