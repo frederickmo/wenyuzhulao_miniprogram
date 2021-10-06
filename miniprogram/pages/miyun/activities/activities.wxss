@@ -14,8 +14,8 @@
 }
 
 .imageBox{
-  height: 200rpx;
-  width: 350rpx;
+  /* height: 200rpx;
+  width: 350rpx; */
   justify-content: center;
 }
 
@@ -26,6 +26,8 @@
 }
 .place{
   margin-block: 30rpx;
+  margin-top: 25%;
+  margin-left: 10%
 }
 
 .text1{
@@ -40,4 +42,27 @@
   font-size: 35rpx;
   letter-spacing: 3rpx;
   color:rgb(167, 167, 167);
+}
+.header {
+  height: 20%;
+  display: flex;
+  background: rgb(0, 0, 0);
+  color: rgb(40,40,40);
+  /* flex-direction: row; */
+  /* position: absolute; */
+}
+
+.greeting {
+  font-weight: bold;
+  font-size: 4vh;
+  position: absolute;
+  left: 10%
+}
+
+.avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 65rpx;
+  position: absolute;
+  right: 10%
 }

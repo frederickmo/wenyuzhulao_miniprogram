@@ -1,4 +1,11 @@
 
+<view class="header">
+  <view class="greeting">
+  <view>欢迎您，</view>
+  <view>{{userInfo.nickName}}</view>
+  </view>
+  <view><image class="avatar" src="{{userInfo.avatarUrl}}"></image></view>
+</view>
 <view class="menu">
     <navigator class="menuItems" url="/pages/choose_place/choose_place">
       <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/frontpage/monthly_activities.png?sign=acc2758b57950010a0f6d1ec4c56bd1d&t=1633355850"></image>

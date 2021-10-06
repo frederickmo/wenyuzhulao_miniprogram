@@ -1,4 +1,5 @@
 //app.js
+
 App({
   onLaunch: function () {
     if (!wx.cloud) {
@@ -18,6 +19,7 @@ App({
       loggedIn: false,
       userInfo: {}, //通过用户登录得到的user信息
       user: {} //服务器返回的（已经注册过的）user信息
+      
     }
   }
 })

@@ -62,5 +62,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  registerSuccess: function () {
+    wx.showModal({
+      title: '报名结果',
+      content: '恭喜您报名成功！',
+      showCancel: false
+    })
   }
 })

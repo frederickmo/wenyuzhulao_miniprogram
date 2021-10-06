@@ -1,4 +1,12 @@
 <!--pages/activities/activities.wxml-->
+<view class="header">
+  <view class="greeting">
+  <view>欢迎您，</view>
+  <view>{{userInfo.nickName}}</view>
+  </view>
+  <view><image class="avatar" src="{{userInfo.avatarUrl}}"></image></view>
+</view>
+
 <view class="place">
   <view class="text1">密云路为老中心</view>
   <view class="text2">搜索本月丰富活动</view>

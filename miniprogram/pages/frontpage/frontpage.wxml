@@ -1,20 +1,12 @@
 <!--pages/frontpage/frontpage.wxml-->
-<!-- <view class="container">
-  <view class="userinfo">
-    <block wx:if="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 微信账号一键登录 </button>
-      <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
-      <view>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </view>
-    </block>
-  </view>
-</view> -->
-<view>
-  <view style="margin-top: 300rpx">
-    <button id='login' open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" bindtap="onRedirectToIndex">点击登录</button>
+<view style="margin: auto; top: 0; bottom: 0">
+<view class="title">
+文娱助老
+</view>
+<view class="description">
+您的贴身伴侣
+</view>
+  <view style="margin-top: 100rpx">
+    <button id='login' open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" bindtap="onRedirectToIndex">点击进入</button>
   </view>
 </view>

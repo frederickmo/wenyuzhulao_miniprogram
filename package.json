@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "taro-ui": "^2.3.4",
+    "weui": "^2.5.0"
+  }
+}

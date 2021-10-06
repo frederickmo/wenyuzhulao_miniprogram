@@ -1,5 +1,12 @@
 <!--pages/index/index.wxml-->
-<view class="box">
+<view class="header">
+  <view class="greeting">
+  <view>欢迎您，</view>
+  <view>{{userInfo.nickName}}</view>
+  </view>
+  <view><image class="avatar" src="{{userInfo.avatarUrl}}"></image></view>
+</view>
+<view class="box" style="margin-top: 22%">
   <navigator class="chooseBox" url="/pages/miyun/activities/activities">
     <image mode="widthFix" src="https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/miyun_road.png?sign=46edf43eb31a25c06b4244c84a715e66&t=1633355730"></image>
     <text>密云路为老中心</text>

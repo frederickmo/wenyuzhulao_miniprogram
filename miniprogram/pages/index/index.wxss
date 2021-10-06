@@ -3,7 +3,8 @@ page{
 }
 
 .menu{
-  height: 1000px;
+  margin-top: 18%;
+  height: 82%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,4 +17,28 @@ page{
   width: 320px;
   display: flex;
   margin-top: 20px;
+}
+
+.header {
+  height: 20%;
+  display: flex;
+  background: rgb(0, 0, 0);
+  color: rgb(40,40,40);
+  /* flex-direction: row; */
+  /* position: absolute; */
+}
+
+.greeting {
+  font-weight: bold;
+  font-size: 4vh;
+  position: absolute;
+  left: 10%
+}
+
+.avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 65rpx;
+  position: absolute;
+  right: 10%
 }
