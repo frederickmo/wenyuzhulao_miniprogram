@@ -65,7 +65,6 @@ Page({
     ],
     curNav: 1,
     curIndex: 0,
-    curItemStyle: ['','','','','','']
   },
 
   //事件处理函数  
