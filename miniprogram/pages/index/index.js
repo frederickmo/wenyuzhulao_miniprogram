@@ -7,7 +7,7 @@ Page({
 
   onLoad: function () {
     this.setData({
-      userInfo: getApp().globalData.userInfo
+      userInfo: getApp().globalData.user
     })
     console.log('Index页面获取的userInfo：',this.data.userInfo)
   }

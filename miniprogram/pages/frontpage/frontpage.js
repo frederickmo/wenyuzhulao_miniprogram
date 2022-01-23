@@ -11,6 +11,8 @@ Page({
     nickName: '',
     avatarUrl: '',
     loggedIn: false,
+    canIGetUserProfile: false,
+    hasUserInfo: false,
     user: {}
   },
 
@@ -18,6 +20,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log("现在有用户信息吗", this.data.hasUserInfo)
     if (!wx.cloud) {
       wx.showModal({
         title: '初始化失败',
@@ -35,9 +38,16 @@ Page({
       return
     }
 
+    if (wx.getUserProfile) {
+      this.setData({
+        canIGetUserProfile: true
+      })
+    }
+
     wx.getSetting({
       success: res => {
-        if (res.authSetting['scope.userInfo']) {
+        if (this.data.hasUserInfo) {
+          console.log("已经授权")
           //已经授权，可以调用getUserProfile获取用户信息，不会弹窗
           wx.getUserProfile({
             success: res => {
@@ -53,19 +63,50 @@ Page({
         }
       }
     })
+    console.log("onLaunch时候的userInfo:")
+    console.log(this.data.userInfo)
   },
 
   onGetUserInfo : function (e) {
-    if (!getApp().globalData.loggedIn && e.detail.userInfo) {
-      this.setData({
-        userInfo: e.detail.userInfo,
-        nickName: e.detail.userInfo.nickName,
-        avatarUrl: e.detail.userInfo.avatarUrl
+    var that = this
+    // if (!(getApp().globalData.loggedIn && e.detail.userInfo)) {
+    //   this.setData({
+    //     userInfo: e.detail.userInfo,
+    //     nickName: e.detail.userInfo.nickName,
+    //     avatarUrl: e.detail.userInfo.avatarUrl
+    //   })
+    // }
+    // console.log('获取用户信息如下：')
+    // console.log(e.detail.userInfo)
+    // getApp().globalData.userInfo = e.detail.userInfo
+    console.log("hasUserInfo:"+this.data.hasUserInfo)
+    //如果用户未登录
+    if (!getApp().globalData.loggedIn) {
+      wx.getUserProfile({
+        desc: '用于完善会员资料', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
+        success: (res) => {
+          this.setData({
+            userInfo: res.userInfo,
+            nickName: res.userInfo.nickName,
+            avatarUrl: res.userInfo.avatarUrl,
+            hasUserInfo: true
+          })
+          getApp().globalData.userInfo = this.data.userInfo
+          this.onGetOpenid()
+        },
+        fail: (err) => {
+          wx.showModal({
+            title: "登录失败",
+            content: err.errMsg,
+            showCancel: false
+          })
+        }
       })
-      console.log('获取用户信息如下：')
-      console.log(e.detail.userInfo)
-      getApp().globalData.userInfo = e.detail.userInfo
-      this.onGetOpenid()
+    }
+    else {
+      wx.redirectTo({
+        url: '../index/index',
+      })
     }
   },
 
@@ -83,8 +124,11 @@ Page({
         if (res.result.errCode == 0) {
           console.log('服务器返回请求成功！')
           that.data.user = res.result.data.user
+          that.data.hasUserInfo = true
           getApp().globalData.user = res.result.data.user
           getApp().globalData.loggedIn = true
+          console.log("onGetOpenid中给全局变量赋值后：")
+          console.log(getApp().globalData.user)
           wx.redirectTo({
             url: '../index/index'
           })

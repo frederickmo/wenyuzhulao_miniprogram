@@ -7,6 +7,6 @@
 您的贴身伴侣
 </view>
   <view style="margin-top: 100rpx">
-    <button id='login' open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" bindtap="onRedirectToIndex">点击进入</button>
+    <button id='login' bindtap="onGetUserInfo">点击进入</button>
   </view>
 </view>
