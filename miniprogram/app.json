@@ -25,8 +25,38 @@
     "pages/activities/folk_dance/folk_dance",
     "pages/activities/chess/chess",
     "pages/activities/chess_competition/chess_competition",
-    "pages/activities/art_festival/art_festival"
+    "pages/activities/art_festival/art_festival",
+    "pages/reconstructed/frontpage/frontpage",
+    "pages/personal_info/index"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/frontpage/frontpage",
+        "text": "首页",
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/choose_place/choose_place",
+        "text": "分类",
+        "iconPath": "assets/images/category.png",
+        "selectedIconPath": "assets/images/category_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "地图",
+        "iconPath": "assets/images/map.png",
+        "selectedIconPath": "assets/images/map_active.png"
+      },
+      {
+        "pagePath": "pages/personal_info/index",
+        "text": "个人中心",
+        "iconPath": "assets/images/person.png",
+        "selectedIconPath": "assets/images/person_active.png"
+      }
+    ]
+  },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -35,5 +65,11 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-empty": "@vant/weapp/empty/index"
+  }
 }

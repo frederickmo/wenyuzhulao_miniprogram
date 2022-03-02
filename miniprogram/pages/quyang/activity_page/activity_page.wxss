@@ -85,3 +85,19 @@ page{
   font-size: 20px;  
   text-align: center;  
 } 
+
+.newline {
+  margin-top: 0
+}
+
+.non_newline {
+  margin-top: 60rpx
+}
+
+.newline_line_height {
+  line-height: 80rpx;
+}
+
+.non_newline_line_height {
+  line-height: 100rpx;
+}

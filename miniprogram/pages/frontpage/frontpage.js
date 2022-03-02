@@ -69,16 +69,6 @@ Page({
 
   onGetUserInfo : function (e) {
     var that = this
-    // if (!(getApp().globalData.loggedIn && e.detail.userInfo)) {
-    //   this.setData({
-    //     userInfo: e.detail.userInfo,
-    //     nickName: e.detail.userInfo.nickName,
-    //     avatarUrl: e.detail.userInfo.avatarUrl
-    //   })
-    // }
-    // console.log('获取用户信息如下：')
-    // console.log(e.detail.userInfo)
-    // getApp().globalData.userInfo = e.detail.userInfo
     console.log("hasUserInfo:"+this.data.hasUserInfo)
     //如果用户未登录
     if (!getApp().globalData.loggedIn) {
@@ -103,11 +93,12 @@ Page({
         }
       })
     }
-    else {
-      wx.redirectTo({
-        url: '../index/index',
-      })
-    }
+    // 取消跳转
+    // else {
+    //   wx.redirectTo({
+    //     url: '../index/index',
+    //   })
+    // }
   },
 
   onGetOpenid: function () {
@@ -129,9 +120,10 @@ Page({
           getApp().globalData.loggedIn = true
           console.log("onGetOpenid中给全局变量赋值后：")
           console.log(getApp().globalData.user)
-          wx.redirectTo({
-            url: '../index/index'
-          })
+          // 取消跳转
+          // wx.redirectTo({
+          //   url: '../index/index'
+          // })
         } else {
           console.log('服务器返回请求失败，出现某种问题！')
           wx.showModal({
@@ -224,6 +216,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+
+  onChange(event) {
+    // event.detail 的值为当前选中项的索引
+    this.setData({ active: event.detail });
+    console.log("用户敲击了" + this.data.active)
   },
 
 })

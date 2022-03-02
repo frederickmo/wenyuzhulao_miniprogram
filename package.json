@@ -1,6 +1,26 @@
 {
   "dependencies": {
+    "@vant/weapp": "^1.10.2",
+    "miniprogram-sm-crypto": "^0.3.7",
     "taro-ui": "^2.3.4",
     "weui": "^2.5.0"
-  }
+  },
+  "name": "wenyuzhulao_miniprogram",
+  "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frederickmo/wenyuzhulao_miniprogram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frederickmo/wenyuzhulao_miniprogram/issues"
+  },
+  "homepage": "https://github.com/frederickmo/wenyuzhulao_miniprogram#readme"
 }

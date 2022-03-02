@@ -18,8 +18,13 @@ Page({
             {
               child_id: 1,
               name: 'ping_pong_class',
-              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B%E5%9B%BE/ping_pong_class.png?sign=1edd83c71f624ceef04f9587dd473016&t=1633357381",
-              url: "/pages/activities/ping_pong_class/ping_pong_class"
+              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/ping_pong_class.jpeg?sign=cc5986e0972dfd07013785eb16bbf2d0&t=1646034360",
+              url: "/pages/activities/ping_pong_class/ping_pong_class",
+              title: "乒乓世界",
+              date: "2021.6.12（周六）",
+              time: "9:30-11:00",
+              totalVolume: 18,
+              occupied: 16
             }
           ]
       },
@@ -51,14 +56,24 @@ Page({
             {
               child_id: 1,
               name: 'harmonica_class',
-              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B%E5%9B%BE/harmonica_class.png?sign=1480a2e26d1d853cba4b16d16ef7bde8&t=1633357403",
-              url: "/pages/activities/harmonica_class/harmonica_class"
+              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/harmonica_class.jpeg?sign=ea2360e683e405da55f4baa9e9d40ffc&t=1646034374",
+              url: "/pages/activities/harmonica_class/harmonica_class",
+              title: "口琴课堂",
+              date: "2021.6.6（周日）",
+              time: "13:30-15:00",
+              totalVolume: 15,
+              occupied: 12
             },
             {
               child_id: 2,
               name: 'zheng_class',
-              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B%E5%9B%BE/zheng_class.png?sign=75db72ff6ca760013b74af1250571a94&t=1633357414",
-              url: "/pages/activities/zheng_class/zheng_class"
+              image: "https://656e-env1-6g7sav9181c12f16-1306850152.tcb.qcloud.la/applet_resources/zheng_class.jpeg?sign=4c3f3927be1b85bd694dcb2e81d63505&t=1646034388",
+              url: "/pages/activities/zheng_class/zheng_class",
+              title: "筝韵睦邻",
+              date: "2021.6.19（周六）",
+              time: "13:30-15:00",
+              totalVolume: 16,
+              occupied: 9
             }
           ]
       }

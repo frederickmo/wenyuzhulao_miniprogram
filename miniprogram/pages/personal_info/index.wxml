@@ -1,0 +1,26 @@
+<van-cell-group inset>
+  <van-cell 
+  value="{{userInfo.nickName ? '您好，' + userInfo.nickName : '当前未登录'}}" 
+  style="font-size: 100rpx;"
+  center
+  size="large"
+  clickable
+  bind:click="onClickLogin">
+    <view slot="title">
+      <van-image 
+      width="50" 
+      height="50" 
+      round fit="cover" 
+      src="{{userInfo.avatarUrl}}"
+      use-error-slot
+      >
+        <text slot="error">加载失败</text>
+      </van-image>
+      <!-- <van-tag type="danger">标签</van-tag> -->
+    </view>
+  </van-cell>
+</van-cell-group>
+
+<van-empty wx:if="{{ !loggedIn }}" description="更多内容，登录后即可使用">
+  <van-button round bind:click="onClickLogin" type="danger">点击登录</van-button>
+</van-empty>

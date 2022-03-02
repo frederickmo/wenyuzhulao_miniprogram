@@ -1,0 +1,9 @@
+/* pages/personal_info/index.wxss */
+
+custom-class {
+  font-size: 200rpx;
+}
+
+value-class {
+  font-size: 100rpx;
+}

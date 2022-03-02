@@ -8,5 +8,6 @@
 </view>
   <view style="margin-top: 100rpx">
     <button id='login' bindtap="onGetUserInfo">点击进入</button>
+    <van-button>van-button</van-button>
   </view>
 </view>
